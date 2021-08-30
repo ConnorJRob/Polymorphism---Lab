@@ -35,4 +35,5 @@ public class DebitCard extends BankCard{ //the DebitCard class now extends from 
     // however both meet the requirement of IScan which requires a String scan() method
     public String scan() {
         return "Payment Complete";
+    }
 }
